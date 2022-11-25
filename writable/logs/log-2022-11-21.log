@@ -1,0 +1,234 @@
+CRITICAL - 2022-11-21 20:23:28 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODk5Mjg5OSwiZXhwIjoxNjY4OTk2NDk5LCJlbWFpbCI6InJvc3NhdzQ1QGdtYWlsLmNvbSJ9.dthhCdXjMjXP-4RPw97m5sBeawbQysZrCB-TR11DO3U', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('role', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 20:29:13 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODkwMzgxMSwiZXhwIjoxNjY4OTA3NDExLCJlbWFpbCI6InN5YWlmdWxyYW1hZGhhbjcxNEBnbWFpbC5jb20ifQ.wEjn5yY8hvkz-8KISCfZXB7RNOO3RE3H1-KowLUqoAk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('tambah_role', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 20:33:39 --> Class 'App\Controllers\UserModel' not found
+in APPPATH\Controllers\Role.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->tambah_role()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 20:33:55 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Role.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->tambah_role()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 20:42:07 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODk5Mjg5OSwiZXhwIjoxNjY4OTk2NDk5LCJlbWFpbCI6InJvc3NhdzQ1QGdtYWlsLmNvbSJ9.dthhCdXjMjXP-4RPw97m5sBeawbQysZrCB-TR11DO3U', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('motivasi', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 20:42:35 --> Too few arguments to function App\Controllers\Motivasi::motivasi(), 0 passed in C:\Users\syaif\OneDrive\Desktop\Tugas Akhir TWS\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Motivasi.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->motivasi()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 20:48:46 --> Call to undefined method App\Models\MotivasiModel::getRow
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Motivasi.php(50): CodeIgniter\Model->__call('getRow', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->motivasi('13')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 20:49:31 --> Call to undefined method App\Models\MotivasiModel::getRow
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Motivasi.php(50): CodeIgniter\Model->__call('getRow', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->motivasi('13')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 21:33:18 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2OTA4MzU4MywiZXhwIjoxNjY5MDg3MTgzLCJlbWFpbCI6InJvc3NhdzQ1QGdtYWlsLmNvbSJ9.c7WxpsA6HrtSrB6l-L0RRbLfAJADIMJVa8rBZPcdsr0', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('list_motivasi', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 21:33:25 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2OTA4MzU4MywiZXhwIjoxNjY5MDg3MTgzLCJlbWFpbCI6InJvc3NhdzQ1QGdtYWlsLmNvbSJ9.c7WxpsA6HrtSrB6l-L0RRbLfAJADIMJVa8rBZPcdsr0', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('list_motivasi', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 21:33:37 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2OTA4MzU4MywiZXhwIjoxNjY5MDg3MTgzLCJlbWFpbCI6InJvc3NhdzQ1QGdtYWlsLmNvbSJ9.c7WxpsA6HrtSrB6l-L0RRbLfAJADIMJVa8rBZPcdsr0', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('motivasi/13', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 22:20:55 --> Call to a member function update_motivasi() on null
+in APPPATH\Controllers\Motivasi.php on line 198.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->ubah_motivasi('13')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 22:21:23 --> Call to a member function update_motivasi() on null
+in APPPATH\Controllers\Motivasi.php on line 198.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->ubah_motivasi('13')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 22:21:36 --> Call to a member function update_motivasi() on null
+in APPPATH\Controllers\Motivasi.php on line 199.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->ubah_motivasi('13')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 22:21:54 --> Call to a member function update_motivasi() on null
+in APPPATH\Controllers\Motivasi.php on line 199.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->ubah_motivasi('13')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 22:23:46 --> Call to a member function update_motivasi() on null
+in APPPATH\Controllers\Motivasi.php on line 199.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->ubah_motivasi('13')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 22:24:03 --> Call to a member function update_motivasi() on null
+in APPPATH\Controllers\Motivasi.php on line 198.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->ubah_motivasi('13')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 22:24:21 --> Call to a member function update_motivasi() on null
+in APPPATH\Controllers\Motivasi.php on line 198.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->ubah_motivasi('13')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 22:40:19 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2OTA4ODAxMCwiZXhwIjoxNjY5MDkxNjEwLCJlbWFpbCI6InJvc3NhdzQ1QGdtYWlsLmNvbSJ9.YbHC3ElfPVk5LBGtVetNsb_PU0xV9fMVYiyGXYAfS-c', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('hapus_motivasi/13', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 22:40:26 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2OTA4ODAxMCwiZXhwIjoxNjY5MDkxNjEwLCJlbWFpbCI6InJvc3NhdzQ1QGdtYWlsLmNvbSJ9.YbHC3ElfPVk5LBGtVetNsb_PU0xV9fMVYiyGXYAfS-c', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('hapus_motivasi/13', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 22:41:20 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2OTA4ODAxMCwiZXhwIjoxNjY5MDkxNjEwLCJlbWFpbCI6InJvc3NhdzQ1QGdtYWlsLmNvbSJ9.YbHC3ElfPVk5LBGtVetNsb_PU0xV9fMVYiyGXYAfS-c', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('hapus_motivasi/13', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 22:41:55 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2OTA4ODAxMCwiZXhwIjoxNjY5MDkxNjEwLCJlbWFpbCI6InJvc3NhdzQ1QGdtYWlsLmNvbSJ9.YbHC3ElfPVk5LBGtVetNsb_PU0xV9fMVYiyGXYAfS-c', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('hapus_motivasi/13', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 22:42:25 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2OTA4ODAxMCwiZXhwIjoxNjY5MDkxNjEwLCJlbWFpbCI6InJvc3NhdzQ1QGdtYWlsLmNvbSJ9.YbHC3ElfPVk5LBGtVetNsb_PU0xV9fMVYiyGXYAfS-c', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('hapus_motivasi/13', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 22:45:56 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2OTA4ODAxMCwiZXhwIjoxNjY5MDkxNjEwLCJlbWFpbCI6InJvc3NhdzQ1QGdtYWlsLmNvbSJ9.YbHC3ElfPVk5LBGtVetNsb_PU0xV9fMVYiyGXYAfS-c', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('hapus_motivasi/13', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 22:46:04 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2OTA4ODAxMCwiZXhwIjoxNjY5MDkxNjEwLCJlbWFpbCI6InJvc3NhdzQ1QGdtYWlsLmNvbSJ9.YbHC3ElfPVk5LBGtVetNsb_PU0xV9fMVYiyGXYAfS-c', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('hapus_motivasi/13', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-21 22:46:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3 in C:\Users\syaif\OneDrive\Desktop\Tugas Akhir TWS\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\OneDrive\Desktop\Tugas Akhir TWS\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\Users\syaif\OneDrive\Desktop\Tugas Akhir TWS\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\Users\syaif\OneDrive\Desktop\Tugas Akhir TWS\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\Users\syaif\OneDrive\Desktop\Tugas Akhir TWS\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\Users\syaif\OneDrive\Desktop\Tugas Akhir TWS\app\Models\MotivasiModel.php(64): CodeIgniter\Database\BaseBuilder->delete(NULL)
+#5 C:\Users\syaif\OneDrive\Desktop\Tugas Akhir TWS\app\Controllers\Motivasi.php(243): App\Models\MotivasiModel->hapus_motivasi('13')
+#6 C:\Users\syaif\OneDrive\Desktop\Tugas Akhir TWS\system\CodeIgniter.php(927): App\Controllers\Motivasi->hapus_motivasi('13')
+#7 C:\Users\syaif\OneDrive\Desktop\Tugas Akhir TWS\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+#8 C:\Users\syaif\OneDrive\Desktop\Tugas Akhir TWS\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\syaif\OneDrive\Desktop\Tugas Akhir TWS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\syaif\OneDrive\Desktop\Tugas Akhir TWS\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#11 {main}
+CRITICAL - 2022-11-21 22:46:29 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2OTA4ODAxMCwiZXhwIjoxNjY5MDkxNjEwLCJlbWFpbCI6InJvc3NhdzQ1QGdtYWlsLmNvbSJ9.YbHC3ElfPVk5LBGtVetNsb_PU0xV9fMVYiyGXYAfS-c', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('list_motivasi', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-21 22:46:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3 in C:\Users\syaif\OneDrive\Desktop\Tugas Akhir TWS\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\OneDrive\Desktop\Tugas Akhir TWS\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\Users\syaif\OneDrive\Desktop\Tugas Akhir TWS\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\Users\syaif\OneDrive\Desktop\Tugas Akhir TWS\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\Users\syaif\OneDrive\Desktop\Tugas Akhir TWS\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\Users\syaif\OneDrive\Desktop\Tugas Akhir TWS\app\Models\MotivasiModel.php(64): CodeIgniter\Database\BaseBuilder->delete(NULL)
+#5 C:\Users\syaif\OneDrive\Desktop\Tugas Akhir TWS\app\Controllers\Motivasi.php(243): App\Models\MotivasiModel->hapus_motivasi('13')
+#6 C:\Users\syaif\OneDrive\Desktop\Tugas Akhir TWS\system\CodeIgniter.php(927): App\Controllers\Motivasi->hapus_motivasi('13')
+#7 C:\Users\syaif\OneDrive\Desktop\Tugas Akhir TWS\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+#8 C:\Users\syaif\OneDrive\Desktop\Tugas Akhir TWS\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\syaif\OneDrive\Desktop\Tugas Akhir TWS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\syaif\OneDrive\Desktop\Tugas Akhir TWS\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#11 {main}
+CRITICAL - 2022-11-21 22:59:35 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2OTA4ODAxMCwiZXhwIjoxNjY5MDkxNjEwLCJlbWFpbCI6InJvc3NhdzQ1QGdtYWlsLmNvbSJ9.YbHC3ElfPVk5LBGtVetNsb_PU0xV9fMVYiyGXYAfS-c', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('role/1', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

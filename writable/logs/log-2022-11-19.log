@@ -1,0 +1,1388 @@
+CRITICAL - 2022-11-19 00:38:07 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODgzMzYzNywiZXhwIjoxNjY4ODM3MjM3LCJlbWFpbCI6InN5YWlmdWxyYW1hZGhhbjcxNEBnbWFpbC5jb20ifQ.TvLCbfIJ_8YPAlzjHiX_nogE8eSmYNhksCQ8qjgLCKw', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('user', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 00:38:12 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODgzMzYzNywiZXhwIjoxNjY4ODM3MjM3LCJlbWFpbCI6InN5YWlmdWxyYW1hZGhhbjcxNEBnbWFpbC5jb20ifQ.TvLCbfIJ_8YPAlzjHiX_nogE8eSmYNhksCQ8qjgLCKw', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('user', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 00:38:40 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODgzMzYzNywiZXhwIjoxNjY4ODM3MjM3LCJlbWFpbCI6InN5YWlmdWxyYW1hZGhhbjcxNEBnbWFpbC5jb20ifQ.TvLCbfIJ_8YPAlzjHiX_nogE8eSmYNhksCQ8qjgLCKw', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('user', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 00:41:40 --> Signature verification failed
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 140.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODgzOTkxNCwiZXhwIjoxNjY4ODQzNTE0LCJlbWFpbCI6InN5YWlmdWxyYW1hZGhhbjcxNEBnbWFpbC5jb20ifQ.-IdkSvrd3Gbx2BNvG1afTWDWbyxOlUxzyjp3P8d6W5', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('user', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 00:43:21 --> Signature verification failed
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 140.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODgzOTkxNCwiZXhwIjoxNjY4ODQzNTE0LCJlbWFpbCI6InN5YWlmdWxyYW1hZGhhbjcxNEBnbWFpbC5jb20ifQ.-IdkSvrd3Gbx2BNvG1afTWDWbyxOlUxzyjp3P8d6W5', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('user', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 00:45:00 --> Signature verification failed
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 140.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODgzOTkxNCwiZXhwIjoxNjY4ODQzNTE0LCJlbWFpbCI6InN5YWlmdWxyYW1hZGhhbjcxNEBnbWFpbC5jb20ifQ.-IdkSvrd3Gbx2BNvG1afTWDWbyxOlUxzyjp3P8d6W5', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('user', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 00:48:04 --> Signature verification failed
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 140.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODgzOTkxNCwiZXhwIjoxNjY4ODQzNTE0LCJlbWFpbCI6InN5YWlmdWxyYW1hZGhhbjcxNEBnbWFpbC5jb20ifQ.-IdkSvrd3Gbx2BNvG1afTWDWbyxOlUxzyjp3P8d6W5', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('role', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 00:50:57 --> Signature verification failed
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 140.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODgzOTkxNCwiZXhwIjoxNjY4ODQzNTE0LCJlbWFpbCI6InN5YWlmdWxyYW1hZGhhbjcxNEBnbWFpbC5jb20ifQ.-IdkSvrd3Gbx2BNvG1afTWDWbyxOlUxzyjp3P8d6W5', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('role', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 00:51:33 --> Signature verification failed
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 140.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODgzOTkxNCwiZXhwIjoxNjY4ODQzNTE0LCJlbWFpbCI6InN5YWlmdWxyYW1hZGhhbjcxNEBnbWFpbC5jb20ifQ.-IdkSvrd3Gbx2BNvG1afTWDWbyxOlUxzyjp3P8d6W5ww', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('role', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 00:52:18 --> Signature verification failed
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 140.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODgzOTkxNCwiZXhwIjoxNjY4ODQzNTE0LCJlbWFpbCI6InN5YWlmdWxyYW1hZGhhbjcxNEBnbWFpbC5jb20ifQ.-IdkSvrd3Gbx2BNvG1afTWDWbyxOlUxzyjp3P8d6W5', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('role', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-19 00:54:58 --> mysqli_sql_exception: Table 'db_vigenesia_ci4.motivasis' doesn't exist in C:\Users\syaif\OneDrive\Desktop\Kodingan\Codeigniter 4\Vigenesia\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\OneDrive\Desktop\Kodingan\Codeigniter 4\Vigenesia\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\syaif\OneDrive\Desktop\Kodingan\Codeigniter 4\Vigenesia\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\syaif\OneDrive\Desktop\Kodingan\Codeigniter 4\Vigenesia\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\syaif\OneDrive\Desktop\Kodingan\Codeigniter 4\Vigenesia\vigenesia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\syaif\OneDrive\Desktop\Kodingan\Codeigniter 4\Vigenesia\vigenesia\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\syaif\OneDrive\Desktop\Kodingan\Codeigniter 4\Vigenesia\vigenesia\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\syaif\OneDrive\Desktop\Kodingan\Codeigniter 4\Vigenesia\vigenesia\app\Controllers\Motivasi.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\syaif\OneDrive\Desktop\Kodingan\Codeigniter 4\Vigenesia\vigenesia\system\CodeIgniter.php(927): App\Controllers\Motivasi->motivasi()
+#8 C:\Users\syaif\OneDrive\Desktop\Kodingan\Codeigniter 4\Vigenesia\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+#9 C:\Users\syaif\OneDrive\Desktop\Kodingan\Codeigniter 4\Vigenesia\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\syaif\OneDrive\Desktop\Kodingan\Codeigniter 4\Vigenesia\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\syaif\OneDrive\Desktop\Kodingan\Codeigniter 4\Vigenesia\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#12 {main}
+CRITICAL - 2022-11-19 00:54:58 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 224.
+ 1 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\Motivasi.php(17): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->motivasi()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-19 00:55:21 --> mysqli_sql_exception: Table 'db_vigenesia_ci4.motivasis' doesn't exist in C:\Users\syaif\OneDrive\Desktop\Kodingan\Codeigniter 4\Vigenesia\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\OneDrive\Desktop\Kodingan\Codeigniter 4\Vigenesia\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\syaif\OneDrive\Desktop\Kodingan\Codeigniter 4\Vigenesia\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\syaif\OneDrive\Desktop\Kodingan\Codeigniter 4\Vigenesia\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\syaif\OneDrive\Desktop\Kodingan\Codeigniter 4\Vigenesia\vigenesia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\syaif\OneDrive\Desktop\Kodingan\Codeigniter 4\Vigenesia\vigenesia\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\syaif\OneDrive\Desktop\Kodingan\Codeigniter 4\Vigenesia\vigenesia\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\syaif\OneDrive\Desktop\Kodingan\Codeigniter 4\Vigenesia\vigenesia\app\Controllers\Motivasi.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\syaif\OneDrive\Desktop\Kodingan\Codeigniter 4\Vigenesia\vigenesia\system\CodeIgniter.php(927): App\Controllers\Motivasi->motivasi()
+#8 C:\Users\syaif\OneDrive\Desktop\Kodingan\Codeigniter 4\Vigenesia\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+#9 C:\Users\syaif\OneDrive\Desktop\Kodingan\Codeigniter 4\Vigenesia\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\syaif\OneDrive\Desktop\Kodingan\Codeigniter 4\Vigenesia\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\syaif\OneDrive\Desktop\Kodingan\Codeigniter 4\Vigenesia\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#12 {main}
+CRITICAL - 2022-11-19 00:55:21 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 224.
+ 1 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\Motivasi.php(17): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->motivasi()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 01:13:53 --> Signature verification failed
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 140.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODgzOTkxNCwiZXhwIjoxNjY4ODQzNTE0LCJlbWFpbCI6InN5YWlmdWxyYW1hZGhhbjcxNEBnbWFpbC5jb20ifQ.-IdkSvrd3Gbx2BNvG1afTWDWbyxOlUxzyjp3P8d6W5', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('tambah_role', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 01:30:33 --> Call to a member function getHeader() on null
+in APPPATH\Controllers\Role.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->tambah_role()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 01:31:57 --> Call to a member function getHeader() on null
+in APPPATH\Controllers\Role.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->tambah_role()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 01:33:09 --> Call to a member function getHeader() on null
+in APPPATH\Controllers\Role.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->coba()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 01:33:22 --> Call to a member function getHeader() on null
+in APPPATH\Controllers\Role.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->coba()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 01:33:54 --> Signature verification failed
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 140.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODgzOTkxNCwiZXhwIjoxNjY4ODQzNTE0LCJlbWFpbCI6InN5YWlmdWxyYW1hZGhhbjcxNEBnbWFpbC5jb20ifQ.-IdkSvrd3Gbx2BNvG1afTWDWbyxOlUxzyjp3P8d6W5wx', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('tambah_role', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 01:34:55 --> Call to a member function getHeader() on null
+in APPPATH\Controllers\Role.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->coba()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 01:35:01 --> Call to a member function getHeader() on null
+in APPPATH\Controllers\Role.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->coba()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 01:35:32 --> Call to a member function getHeader() on null
+in APPPATH\Controllers\Role.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->coba()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 01:36:04 --> Too few arguments to function App\Controllers\Role::coba(), 0 passed in C:\Users\syaif\OneDrive\Desktop\Kodingan\Codeigniter 4\Vigenesia\vigenesia\system\CodeIgniter.php on line 927 and at least 1 expected
+in APPPATH\Controllers\Role.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->coba()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 01:36:10 --> Too few arguments to function App\Controllers\Role::coba(), 0 passed in C:\Users\syaif\OneDrive\Desktop\Kodingan\Codeigniter 4\Vigenesia\vigenesia\system\CodeIgniter.php on line 927 and at least 1 expected
+in APPPATH\Controllers\Role.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->coba()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 01:39:25 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODgzOTkxNCwiZXhwIjoxNjY4ODQzNTE0LCJlbWFpbCI6InN5YWlmdWxyYW1hZGhhbjcxNEBnbWFpbC5jb20ifQ.-IdkSvrd3Gbx2BNvG1afTWDWbyxOlUxzyjp3P8d6W5w', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('tambah_role', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 01:39:32 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODgzOTkxNCwiZXhwIjoxNjY4ODQzNTE0LCJlbWFpbCI6InN5YWlmdWxyYW1hZGhhbjcxNEBnbWFpbC5jb20ifQ.-IdkSvrd3Gbx2BNvG1afTWDWbyxOlUxzyjp3P8d6W5w', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('tambah_role', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 01:39:43 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODgzOTkxNCwiZXhwIjoxNjY4ODQzNTE0LCJlbWFpbCI6InN5YWlmdWxyYW1hZGhhbjcxNEBnbWFpbC5jb20ifQ.-IdkSvrd3Gbx2BNvG1afTWDWbyxOlUxzyjp3P8d6W5w', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('tambah_role', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 01:39:53 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODgzOTkxNCwiZXhwIjoxNjY4ODQzNTE0LCJlbWFpbCI6InN5YWlmdWxyYW1hZGhhbjcxNEBnbWFpbC5jb20ifQ.-IdkSvrd3Gbx2BNvG1afTWDWbyxOlUxzyjp3P8d6W5w', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('tambah_role', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 01:40:02 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODgzOTkxNCwiZXhwIjoxNjY4ODQzNTE0LCJlbWFpbCI6InN5YWlmdWxyYW1hZGhhbjcxNEBnbWFpbC5jb20ifQ.-IdkSvrd3Gbx2BNvG1afTWDWbyxOlUxzyjp3P8d6W5w', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('tambah_role', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 01:40:47 --> Class App\Controllers\Role contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Filters\FilterInterface::before, CodeIgniter\Filters\FilterInterface::after)
+in APPPATH\Controllers\Role.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-19 01:41:39 --> Class App\Controllers\Role contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Filters\FilterInterface::before, CodeIgniter\Filters\FilterInterface::after)
+in APPPATH\Controllers\Role.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-19 01:41:43 --> Class App\Controllers\Role contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Filters\FilterInterface::before, CodeIgniter\Filters\FilterInterface::after)
+in APPPATH\Controllers\Role.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-19 01:45:09 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODgzOTkxNCwiZXhwIjoxNjY4ODQzNTE0LCJlbWFpbCI6InN5YWlmdWxyYW1hZGhhbjcxNEBnbWFpbC5jb20ifQ.-IdkSvrd3Gbx2BNvG1afTWDWbyxOlUxzyjp3P8d6W5w', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('role', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 01:45:25 --> Class App\Controllers\Role contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Filters\FilterInterface::before, CodeIgniter\Filters\FilterInterface::after)
+in APPPATH\Controllers\Role.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-19 01:45:27 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODgzOTkxNCwiZXhwIjoxNjY4ODQzNTE0LCJlbWFpbCI6InN5YWlmdWxyYW1hZGhhbjcxNEBnbWFpbC5jb20ifQ.-IdkSvrd3Gbx2BNvG1afTWDWbyxOlUxzyjp3P8d6W5w', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('user', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 01:45:30 --> Class App\Controllers\Role contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Filters\FilterInterface::before, CodeIgniter\Filters\FilterInterface::after)
+in APPPATH\Controllers\Role.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-19 01:48:53 --> Call to undefined method App\Controllers\Role::getKey()
+in APPPATH\Controllers\Role.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->coba()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 01:51:59 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Role.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->coba()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 01:52:07 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Role.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->coba()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 01:52:23 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Role.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->coba()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 01:52:30 --> Use of undefined constant email - assumed 'email' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Role.php on line 60.
+ 1 APPPATH\Controllers\Role.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant email - assumed \'email\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Role.php', 60, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->coba()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 01:54:11 --> json_decode() expects parameter 1 to be string, object given
+in APPPATH\Controllers\Role.php on line 56.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, object given', 'APPPATH\\Controllers\\Role.php', 56, [...])
+ 2 APPPATH\Controllers\Role.php(56): json_decode(Object(stdClass), true)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->coba()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 01:54:20 --> json_decode() expects parameter 1 to be string, object given
+in APPPATH\Controllers\Role.php on line 56.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, object given', 'APPPATH\\Controllers\\Role.php', 56, [...])
+ 2 APPPATH\Controllers\Role.php(56): json_decode(Object(stdClass), true)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->coba()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 01:54:42 --> json_decode() expects parameter 1 to be string, object given
+in APPPATH\Controllers\Role.php on line 56.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, object given', 'APPPATH\\Controllers\\Role.php', 56, [...])
+ 2 APPPATH\Controllers\Role.php(56): json_decode(Object(stdClass), true)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->coba()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 01:54:49 --> json_decode() expects parameter 1 to be string, object given
+in APPPATH\Controllers\Role.php on line 56.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, object given', 'APPPATH\\Controllers\\Role.php', 56, [...])
+ 2 APPPATH\Controllers\Role.php(56): json_decode(Object(stdClass), true)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->coba()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 01:54:53 --> json_decode() expects parameter 1 to be string, object given
+in APPPATH\Controllers\Role.php on line 56.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, object given', 'APPPATH\\Controllers\\Role.php', 56, [...])
+ 2 APPPATH\Controllers\Role.php(56): json_decode(Object(stdClass), true)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->coba()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-19 17:35:08 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\Users\syaif\Desktop\Tambahan Aja\coding\dicoding\vigenesia\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\dicoding\vigenesia\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'db_vigenesia_ci...', 3306, '', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\dicoding\vigenesia\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\dicoding\vigenesia\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\dicoding\vigenesia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\dicoding\vigenesia\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\dicoding\vigenesia\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\dicoding\vigenesia\app\Controllers\User.php(19): CodeIgniter\BaseModel->first()
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\dicoding\vigenesia\system\CodeIgniter.php(927): App\Controllers\User->masuk()
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\dicoding\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\dicoding\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\dicoding\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\dicoding\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\Users\syaif\Desktop\Tambahan Aja\coding\dicoding\vigenesia\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\dicoding\vigenesia\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\dicoding\vigenesia\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\dicoding\vigenesia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\dicoding\vigenesia\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\dicoding\vigenesia\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\dicoding\vigenesia\app\Controllers\User.php(19): CodeIgniter\BaseModel->first()
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\dicoding\vigenesia\system\CodeIgniter.php(927): App\Controllers\User->masuk()
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\dicoding\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\dicoding\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\dicoding\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\dicoding\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#11 {main}
+CRITICAL - 2022-11-19 17:35:08 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_user`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\User.php(19): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User->masuk()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-19 17:37:21 --> mysqli_sql_exception: Table 'db_vigenesia_ci4.tb_user' doesn't exist in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\User.php(19): CodeIgniter\BaseModel->first()
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\User->masuk()
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#12 {main}
+CRITICAL - 2022-11-19 17:37:21 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 250.
+ 1 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\User.php(19): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User->masuk()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-19 17:37:30 --> mysqli_sql_exception: Table 'db_vigenesia_ci4.tb_user' doesn't exist in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\User.php(19): CodeIgniter\BaseModel->first()
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\User->masuk()
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#12 {main}
+CRITICAL - 2022-11-19 17:37:30 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 250.
+ 1 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\User.php(19): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User->masuk()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-19 17:37:34 --> mysqli_sql_exception: Table 'db_vigenesia_ci4.tb_user' doesn't exist in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\User.php(19): CodeIgniter\BaseModel->first()
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\User->masuk()
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#12 {main}
+CRITICAL - 2022-11-19 17:37:34 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 250.
+ 1 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\User.php(19): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User->masuk()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-19 17:37:46 --> mysqli_sql_exception: Table 'db_vigenesia_ci4.tb_user' doesn't exist in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\User.php(19): CodeIgniter\BaseModel->first()
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\User->masuk()
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#12 {main}
+CRITICAL - 2022-11-19 17:37:46 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 250.
+ 1 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\User.php(19): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User->masuk()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-19 17:38:15 --> mysqli_sql_exception: Table 'db_vigenesia_ci4.tb_user' doesn't exist in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\User.php(19): CodeIgniter\BaseModel->first()
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\User->masuk()
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#12 {main}
+CRITICAL - 2022-11-19 17:38:15 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 250.
+ 1 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\User.php(19): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User->masuk()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 17:45:42 --> json_decode() expects parameter 1 to be string, object given
+in APPPATH\Controllers\Role.php on line 56.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, object given', 'APPPATH\\Controllers\\Role.php', 56, [...])
+ 2 APPPATH\Controllers\Role.php(56): json_decode(Object(stdClass), true)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->coba()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 17:47:42 --> json_decode() expects parameter 1 to be string, object given
+in APPPATH\Controllers\Role.php on line 56.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, object given', 'APPPATH\\Controllers\\Role.php', 56, [...])
+ 2 APPPATH\Controllers\Role.php(56): json_decode(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->coba()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 17:47:52 --> json_decode() expects parameter 1 to be string, object given
+in APPPATH\Controllers\Role.php on line 56.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, object given', 'APPPATH\\Controllers\\Role.php', 56, [...])
+ 2 APPPATH\Controllers\Role.php(56): json_decode(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->coba()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 17:50:36 --> time() expects exactly 0 parameters, 1 given
+in APPPATH\Controllers\Role.php on line 60.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'time() expects exactly 0 parameters, 1 given', 'APPPATH\\Controllers\\Role.php', 60, [...])
+ 2 APPPATH\Controllers\Role.php(60): time(1668901351)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->coba()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 17:52:15 --> Call to a member function getHeader() on null
+in APPPATH\Controllers\Role.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Role->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 17:53:38 --> Cannot call constructor
+in APPPATH\Controllers\Role.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Role->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 17:53:56 --> Call to a member function getHeader() on null
+in APPPATH\Controllers\Role.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Role->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 17:54:30 --> Call to a member function getHeader() on null
+in APPPATH\Controllers\Role.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Role->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 17:54:48 --> Call to a member function getHeader() on null
+in APPPATH\Controllers\Role.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Role->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 17:55:02 --> Call to a member function getHeader() on null
+in APPPATH\Controllers\Role.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Role->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 17:55:17 --> Cannot call constructor
+in APPPATH\Controllers\Role.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Role->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 17:55:21 --> Cannot call constructor
+in APPPATH\Controllers\Role.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Role->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 17:55:50 --> Cannot call constructor
+in APPPATH\Controllers\Role.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Role->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-19 17:57:41 --> mysqli_sql_exception: Unknown column 'role' in 'where clause' in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Mahasiswa', 'role', Array, NULL, 'role')
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('role', 'role', 'Mahasiswa', Array, Array)
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\Role.php(42): CodeIgniter\Controller->validate(Array)
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\Role->tambah_role()
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#14 {main}
+CRITICAL - 2022-11-19 17:57:41 --> Call to a member function getRow() on bool
+in SYSTEMPATH\Validation\Rules.php on line 142.
+ 1 SYSTEMPATH\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Mahasiswa', 'role', [...], null, 'role')
+ 2 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('role', 'role', 'Mahasiswa', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Role.php(42): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->tambah_role()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-19 17:58:02 --> mysqli_sql_exception: Unknown column 'role' in 'where clause' in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Mahasiswa', 'role', Array, NULL, 'role')
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('role', 'role', 'Mahasiswa', Array, Array)
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\Role.php(42): CodeIgniter\Controller->validate(Array)
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\Role->tambah_role()
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#14 {main}
+CRITICAL - 2022-11-19 17:58:02 --> Call to a member function getRow() on bool
+in SYSTEMPATH\Validation\Rules.php on line 142.
+ 1 SYSTEMPATH\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Mahasiswa', 'role', [...], null, 'role')
+ 2 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('role', 'role', 'Mahasiswa', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Role.php(42): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->tambah_role()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-19 17:58:13 --> mysqli_sql_exception: Unknown column 'role' in 'where clause' in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Mahasiswa', 'role', Array, NULL, 'role')
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('role', 'role', 'Mahasiswa', Array, Array)
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\Role.php(42): CodeIgniter\Controller->validate(Array)
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\Role->tambah_role()
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#14 {main}
+CRITICAL - 2022-11-19 17:58:13 --> Call to a member function getRow() on bool
+in SYSTEMPATH\Validation\Rules.php on line 142.
+ 1 SYSTEMPATH\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Mahasiswa', 'role', [...], null, 'role')
+ 2 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('role', 'role', 'Mahasiswa', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Role.php(42): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->tambah_role()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-19 17:58:31 --> mysqli_sql_exception: Unknown column 'role' in 'where clause' in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Mahasiswa', 'role', Array, NULL, 'role')
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('role', 'role', 'Mahasiswa', Array, Array)
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\Role.php(26): CodeIgniter\Controller->validate(Array)
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\Role->tambah_role()
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#14 {main}
+CRITICAL - 2022-11-19 17:58:31 --> Call to a member function getRow() on bool
+in SYSTEMPATH\Validation\Rules.php on line 142.
+ 1 SYSTEMPATH\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Mahasiswa', 'role', [...], null, 'role')
+ 2 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('role', 'role', 'Mahasiswa', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Role.php(26): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->tambah_role()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-19 18:23:38 --> mysqli_sql_exception: Unknown column 'role' in 'where clause' in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Mahasiswa', 'role', Array, NULL, 'role')
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('role', 'role', 'Mahasiswa', Array, Array)
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\Role.php(26): CodeIgniter\Controller->validate(Array)
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\Role->tambah_role()
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#14 {main}
+CRITICAL - 2022-11-19 18:23:38 --> Call to a member function getRow() on bool
+in SYSTEMPATH\Validation\Rules.php on line 142.
+ 1 SYSTEMPATH\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Mahasiswa', 'role', [...], null, 'role')
+ 2 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('role', 'role', 'Mahasiswa', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Role.php(26): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->tambah_role()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-19 18:25:02 --> mysqli_sql_exception: Unknown column 'role' in 'where clause' in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Mahasiswa', 'role', Array, NULL, 'role')
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('role', 'role', 'Mahasiswa', Array, Array)
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\Role.php(24): CodeIgniter\Controller->validate(Array)
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\Role->tambah_role()
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#14 {main}
+CRITICAL - 2022-11-19 18:25:02 --> Call to a member function getRow() on bool
+in SYSTEMPATH\Validation\Rules.php on line 142.
+ 1 SYSTEMPATH\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('Mahasiswa', 'role', [...], null, 'role')
+ 2 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('role', 'role', 'Mahasiswa', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Role.php(24): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Role->tambah_role()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 18:26:11 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODgzOTkxNCwiZXhwIjoxNjY4ODQzNTE0LCJlbWFpbCI6InN5YWlmdWxyYW1hZGhhbjcxNEBnbWFpbC5jb20ifQ.-IdkSvrd3Gbx2BNvG1afTWDWbyxOlUxzyjp3P8d6W5w', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('motivasi', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 18:36:18 --> Class 'App\Controllers\Key' not found
+in APPPATH\Controllers\Motivasi.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 18:36:57 --> Class 'App\Controllers\Key' not found
+in APPPATH\Controllers\Motivasi.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 18:37:04 --> Class 'App\Controllers\UserModel' not found
+in APPPATH\Controllers\Motivasi.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 18:38:12 --> Class 'App\Controllers\Key' not found
+in APPPATH\Controllers\Motivasi.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 18:38:28 --> Class 'App\Controllers\Key' not found
+in APPPATH\Controllers\Motivasi.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 18:39:09 --> Class 'App\Controllers\Key' not found
+in APPPATH\Controllers\Motivasi.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 18:39:18 --> Call to a member function save() on null
+in APPPATH\Controllers\Motivasi.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasix()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 18:40:43 --> Call to a member function save() on null
+in APPPATH\Controllers\Motivasi.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasix()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 18:40:54 --> Call to a member function save() on null
+in APPPATH\Controllers\Motivasi.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasix()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 18:41:20 --> Call to a member function save() on null
+in APPPATH\Controllers\Motivasi.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasix()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 18:41:24 --> Call to a member function save() on null
+in APPPATH\Controllers\Motivasi.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->x()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 18:42:40 --> Class 'App\Controllers\Key' not found
+in APPPATH\Controllers\Motivasi.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-19 18:43:17 --> mysqli_sql_exception: Column 'iduser' cannot be null in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\Motivasi.php(54): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#14 {main}
+ERROR - 2022-11-19 18:45:38 --> mysqli_sql_exception: Column 'iduser' cannot be null in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\Motivasi.php(54): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#14 {main}
+ERROR - 2022-11-19 18:45:39 --> mysqli_sql_exception: Column 'iduser' cannot be null in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\Motivasi.php(54): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#14 {main}
+ERROR - 2022-11-19 18:45:40 --> mysqli_sql_exception: Column 'iduser' cannot be null in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\Motivasi.php(54): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#14 {main}
+ERROR - 2022-11-19 18:46:30 --> mysqli_sql_exception: Column 'iduser' cannot be null in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\Motivasi.php(54): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#14 {main}
+ERROR - 2022-11-19 18:46:33 --> mysqli_sql_exception: Column 'iduser' cannot be null in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\Motivasi.php(54): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#14 {main}
+ERROR - 2022-11-19 18:46:34 --> mysqli_sql_exception: Column 'iduser' cannot be null in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\Motivasi.php(54): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#14 {main}
+ERROR - 2022-11-19 18:46:48 --> mysqli_sql_exception: Column 'iduser' cannot be null in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\Motivasi.php(54): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#14 {main}
+ERROR - 2022-11-19 18:48:14 --> mysqli_sql_exception: Column 'iduser' cannot be null in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\Motivasi.php(55): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#14 {main}
+ERROR - 2022-11-19 18:48:31 --> mysqli_sql_exception: Column 'iduser' cannot be null in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\Motivasi.php(56): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#14 {main}
+ERROR - 2022-11-19 18:49:31 --> mysqli_sql_exception: Column 'iduser' cannot be null in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\Motivasi.php(56): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#14 {main}
+CRITICAL - 2022-11-19 18:50:52 --> Call to undefined function App\Controllers\int()
+in APPPATH\Controllers\Motivasi.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-19 18:51:11 --> mysqli_sql_exception: Column 'iduser' cannot be null in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\Motivasi.php(56): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#14 {main}
+ERROR - 2022-11-19 18:51:18 --> mysqli_sql_exception: Column 'iduser' cannot be null in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\Motivasi.php(56): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#14 {main}
+CRITICAL - 2022-11-19 18:51:28 --> Call to undefined function App\Controllers\int()
+in APPPATH\Controllers\Motivasi.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 18:51:30 --> Call to undefined function App\Controllers\int()
+in APPPATH\Controllers\Motivasi.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-19 18:51:33 --> mysqli_sql_exception: Column 'iduser' cannot be null in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\Motivasi.php(56): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#14 {main}
+ERROR - 2022-11-19 18:51:48 --> mysqli_sql_exception: Column 'iduser' cannot be null in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\Motivasi.php(57): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#14 {main}
+ERROR - 2022-11-19 18:52:01 --> mysqli_sql_exception: Column 'iduser' cannot be null in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\Motivasi.php(57): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#14 {main}
+ERROR - 2022-11-19 18:52:08 --> mysqli_sql_exception: Column 'iduser' cannot be null in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\Motivasi.php(57): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#14 {main}
+ERROR - 2022-11-19 18:52:20 --> mysqli_sql_exception: Column 'iduser' cannot be null in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\Motivasi.php(57): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#14 {main}
+ERROR - 2022-11-19 18:52:27 --> mysqli_sql_exception: Column 'iduser' cannot be null in C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\app\Controllers\Motivasi.php(57): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+#10 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+#11 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syaif\Desktop\Tambahan Aja\coding\codeigniter\vigenesia\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\syaif\\...')
+#14 {main}
+CRITICAL - 2022-11-19 18:53:52 --> Class 'App\Controllers\Key' not found
+in APPPATH\Controllers\Motivasi.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 18:54:07 --> Class 'App\Controllers\Key' not found
+in APPPATH\Controllers\Motivasi.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 18:54:37 --> Class 'App\Controllers\Key' not found
+in APPPATH\Controllers\Motivasi.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 18:54:49 --> Call to a member function where() on null
+in APPPATH\Controllers\Motivasi.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 18:54:55 --> Call to a member function where() on null
+in APPPATH\Controllers\Motivasi.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 18:55:03 --> Call to a member function where() on null
+in APPPATH\Controllers\Motivasi.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 18:55:31 --> Class 'App\Controllers\Key' not found
+in APPPATH\Controllers\Motivasi.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 18:57:02 --> Class 'App\Controllers\Key' not found
+in APPPATH\Controllers\Motivasi.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->tambah_motivasi()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 19:34:55 --> Signature verification failed
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 140.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODkwNTk2OCwiZXhwIjoxNjY4OTA5NTY4LCJlbWFpbCI6InJvc3NhdzQ1QGdtYWlsLmNvbSJ9.yAhG2jArxgJzzKYVEB8EOB2t0wGDdxfYR6whl6OsbAgx', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('tambah_motivasi', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 19:35:53 --> Signature verification failed
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 140.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODkwNTk2OCwiZXhwIjoxNjY4OTA5NTY4LCJlbWFpbCI6InJvc3NhdzQ1QGdtYWlsLmNvbSJ9.yAhG2jArxgJzzKYVEB8EOB2t0wGDdxfYR6whl6OsbAgx', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('tambah_motivasi', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 19:36:37 --> Signature verification failed
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 140.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODkwNTk2OCwiZXhwIjoxNjY4OTA5NTY4LCJlbWFpbCI6InJvc3NhdzQ1QGdtYWlsLmNvbSJ9.yAhG2jArxgJzzKYVEB8EOB2t0wGDdxfYR6whl6OsbAgx', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('tambah_motivasi', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 19:36:45 --> Signature verification failed
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 140.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODkwNTk2OCwiZXhwIjoxNjY4OTA5NTY4LCJlbWFpbCI6InJvc3NhdzQ1QGdtYWlsLmNvbSJ9.yAhG2jArxgJzzKYVEB8EOB2t0wGDdxfYR6whl6OsbAgx', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('tambah_motivasi', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 19:37:03 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODkwMzgxMSwiZXhwIjoxNjY4OTA3NDExLCJlbWFpbCI6InN5YWlmdWxyYW1hZGhhbjcxNEBnbWFpbC5jb20ifQ.wEjn5yY8hvkz-8KISCfZXB7RNOO3RE3H1-KowLUqoAk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('motivasi', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 20:00:04 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODkwMzgxMSwiZXhwIjoxNjY4OTA3NDExLCJlbWFpbCI6InN5YWlmdWxyYW1hZGhhbjcxNEBnbWFpbC5jb20ifQ.wEjn5yY8hvkz-8KISCfZXB7RNOO3RE3H1-KowLUqoAk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('role', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 20:00:05 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODkwMzgxMSwiZXhwIjoxNjY4OTA3NDExLCJlbWFpbCI6InN5YWlmdWxyYW1hZGhhbjcxNEBnbWFpbC5jb20ifQ.wEjn5yY8hvkz-8KISCfZXB7RNOO3RE3H1-KowLUqoAk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('role', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 20:00:06 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODkwMzgxMSwiZXhwIjoxNjY4OTA3NDExLCJlbWFpbCI6InN5YWlmdWxyYW1hZGhhbjcxNEBnbWFpbC5jb20ifQ.wEjn5yY8hvkz-8KISCfZXB7RNOO3RE3H1-KowLUqoAk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('role', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 20:00:07 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODkwMzgxMSwiZXhwIjoxNjY4OTA3NDExLCJlbWFpbCI6InN5YWlmdWxyYW1hZGhhbjcxNEBnbWFpbC5jb20ifQ.wEjn5yY8hvkz-8KISCfZXB7RNOO3RE3H1-KowLUqoAk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('role', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 20:00:08 --> Expired token
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 162.
+ 1 APPPATH\Filters\AuthFilter.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY2ODkwMzgxMSwiZXhwIjoxNjY4OTA3NDExLCJlbWFpbCI6InN5YWlmdWxyYW1hZGhhbjcxNEBnbWFpbC5jb20ifQ.wEjn5yY8hvkz-8KISCfZXB7RNOO3RE3H1-KowLUqoAk', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('role', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 20:03:45 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+in APPPATH\Controllers\Motivasi.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->motivasi_sendiri()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 20:03:48 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+in APPPATH\Controllers\Motivasi.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->motivasi_sendiri()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-19 20:24:21 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Motivasi.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Motivasi->motivasi_sendiri()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Motivasi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

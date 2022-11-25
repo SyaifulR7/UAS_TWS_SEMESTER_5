@@ -1,0 +1,71 @@
+1. download codeigniter 4 yang terbaru (4.20.10) disini https://github.com/CodeIgniter4/framework/releases/tag/v4.2.10
+2. buat folder vigenesia yang terbaru 
+3. ekstrak codeigniter 4 yang terbaru di folder vigenesia yang terbaru
+4. buka codeigniter 4 yang sudah di ekstrak menggunakan vscode
+5. ganti nama env menjadi .env, buka .env, dan ubah environment menjadi developer dan konfigurasi databasenya
+6. membuat model dan migration :
+	a. php spark make:model UserModel / php spark make:migration User (tb_model)
+	b. php spark make:model MotivasiModel  / php spark make:migration Motivasi (tb_motivasi)
+	c. php spark make:model RoleModel / php spark make:migration Role (tb_role)
+7. edit migration User, Motivasi dan Role
+8. jalankan proses migrate (php spark migrate)
+9. install package JWT (composer require firebase/php-jwt)
+10. tambah JWT_SECRET pada .env
+11. tambah controller User, Motivasi dan Role
+12. menambahkan AuthFilter (php spark make:filter AuthFilter)
+13. menambahkan AuthFilter di Filters
+14. menambahkan routes
+15. menjalankan ci4 (php spark serve)
+16. menjalankan api di postman
+	a. masuk
+		1. routes masuk
+		2. postman masuk
+		3. controller masuk
+	b. daftar
+		1. routes daftar
+		2. postman daftar
+		3. controller daftar
+	c. tambah_role
+		1. routes tambah_role
+		2. postman tambah_role
+		3. controller tambah_role
+	d. ubah_role
+		1. routes ubah_role
+		2. postman ubah_role
+		3. controller ubah_role
+		4. model ubah_role
+	e. hapus_role
+		1. routes hapus_role
+		2. postman hapus_role
+		3. controller hapus_role
+		4. model hapus_role
+	f. cetak_role_berdasarkan_id
+		1. routes cetak_role_berdasarkan_id
+		2. postman cetak_role_berdasarkan_id
+		3. controller cetak_role_berdasarkan_id
+	g. cetak_semua_role
+		1. routes cetak_semua_role
+		2. postman cetak_semua_role
+		3. controller cetak_semua_role
+	h. tambah_motivasi
+		1. routes tambah_motivasi
+		2. postman tambah_motivasi
+		3. controller tambah_motivasi
+	i. ubah_motivasi
+		1. routes ubah_motivasi
+		2. postman ubah_motivasi
+		3. controller ubah_motivasi
+		4. model ubah_motivasi
+	j. hapus_motivasi
+		1. routes hapus_motivasi
+		2. postman hapus_motivasi
+		3. controller hapus_motivasi
+		4. model hapus_motivasi
+	k. cetak_motivasi_berdasarkan_id
+		1. routes cetak_motivasi_berdasarkan_id
+		2. postman cetak_motivasi_berdasarkan_id
+		3. controller cetak_motivasi_berdasarkan_id
+	l. cetak_semua_motivasi
+		1. routes cetak_semua_motivasi
+		2. postman cetak_semua_motivasi
+		3. controller cetak_semua_motivasi
